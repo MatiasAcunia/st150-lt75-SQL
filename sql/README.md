@@ -1,3 +1,5 @@
-# SQL
+# SQL Practice Set
 
-My SQL practice solutions. Name files `001-problem-slug.sql`, `002-problem-slug.sql`, etc. Keep the problem URL and SQL dialect in a comment at the top of each file.
+**91 ejercicios** con título y URL individual de TakeUforward, en el orden del temario facilitado. Escribe tu consulta debajo de los comentarios de cada archivo `.sql`. No hay consultas resueltas de antemano.
+
+[Guía de temas](../docs/guia-de-temas.md).
