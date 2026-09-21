@@ -11,4 +11,4 @@ The pasted TakeUforward syllabus identifies 142 problems. Eight items in **Slidi
 - 028: [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) (Medium)
 - 029: [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) (Hard)
 
-[Official Striver 150](https://takeuforward.org/prep-hub/strivers-150-master-patterns-in-dsa) · [Concept and video guide](../docs/guia-de-temas.md).
+[Official Striver 150](https://takeuforward.org/prep-hub/strivers-150-master-patterns-in-dsa).
