@@ -10,4 +10,4 @@ The present TakeUforward edition contains **68** problems. Positions 001–068 f
 - 074: [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) (Medium)
 - 075: [House Robber II](https://leetcode.com/problems/house-robber-ii/) (Medium)
 
-[TakeUforward edition](https://takeuforward.org/prep-hub/blind-75) · [Historical Blind 75](https://crackr.dev/blind75) · [Concept and video guide](../docs/guia-de-temas.md).
+[TakeUforward edition](https://takeuforward.org/prep-hub/blind-75) · [Historical Blind 75](https://crackr.dev/blind75).
