@@ -5,3 +5,10 @@
 -- Esta plantilla NO representa un ejercicio resuelto.
 
 -- TODO: write your own SQL query here.
+
+SELECT
+    e.employee_id,
+    e.name,
+    s.salary
+FROM Employees e, Salaries s
+WHERE e.employee_id = s.employee_id;

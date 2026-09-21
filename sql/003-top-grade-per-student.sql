@@ -5,3 +5,14 @@
 -- Esta plantilla NO representa un ejercicio resuelto.
 
 -- TODO: write your own SQL query here.
+
+SELECT E.student_id, MIN(E.course_id) AS course_id, E.grade
+FROM Enrollments AS E
+WHERE (E.student_id, E.grade) IN(
+    SELECT E2.student_id, MAX(E2.grade)
+    FROM Enrollments AS E2
+    GROUP BY E2.student_id
+)
+GROUP BY E.student_id, E.grade
+ORDER BY E.student_id;
+

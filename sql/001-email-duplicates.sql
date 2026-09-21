@@ -5,3 +5,11 @@
 -- Esta plantilla NO representa un ejercicio resuelto.
 
 -- TODO: write your own SQL query here.
+
+SELECT DISTINCT P.email
+FROM Person AS P
+WHERE P.email IN (
+    SELECT P2.email
+    FROM Person AS P2
+    WHERE P2.id <> P.id
+);
