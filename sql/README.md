@@ -1,4 +1,3 @@
 # SQL Practice Set
 
-**91 ejercicios** con título y URL individual de TakeUforward, en el orden del temario facilitado. Escribe tu consulta debajo de los comentarios de cada archivo `.sql`. No hay consultas resueltas de antemano.
-
+Colección de 91 ejercicios de SQL, organizados en archivos individuales con enlaces a los enunciados originales de TakeUforward.
