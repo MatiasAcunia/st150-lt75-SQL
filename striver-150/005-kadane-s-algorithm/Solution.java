@@ -8,5 +8,20 @@
  */
 
 class Solution {
-    // TODO: implement your own solution following the required signature.
+    public int maxSubArray(int[] nums) {
+        int mejorSuma = Integer.MIN_VALUE;
+
+        int sumaActual = 0;
+
+        for(int i = 0; i < nums.length; i++){
+
+            sumaActual+= nums[i];
+
+            if (sumaActual > mejorSuma) mejorSuma = sumaActual;
+
+            if (sumaActual < 0) sumaActual = 0;
+        }
+
+        return mejorSuma;
+    }
 }
