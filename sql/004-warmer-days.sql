@@ -5,3 +5,12 @@
 -- Esta plantilla NO representa un ejercicio resuelto.
 
 -- TODO: write your own SQL query here.
+
+Select W.id
+FROM Weather AS W
+WHERE W.temperature > (
+
+    SELECT Wcd F2.temperature
+    FROM Weather as W2
+    WHERE W2.id = W.id - 1
+);  
