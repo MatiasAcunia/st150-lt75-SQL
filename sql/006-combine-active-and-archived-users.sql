@@ -5,3 +5,9 @@
 -- Esta plantilla NO representa un ejercicio resuelto.
 
 -- TODO: write your own SQL query here.
+
+SELECT user_id
+FROM ActiveUsers
+UNION
+SELECT user_id
+FROM ArchivedUsers;
