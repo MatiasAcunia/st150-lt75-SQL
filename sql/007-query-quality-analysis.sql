@@ -5,3 +5,8 @@
 -- Esta plantilla NO representa un ejercicio resuelto.
 
 -- TODO: write your own SQL query here.
+
+SELECT Q.query_name, ROUND(AVG(Q.rating / Q.position), 2) AS quality,ROUND(AVG(Q.rating < 3) * 100, 2) AS poor_query_percentage
+FROM Queries as Q
+GROUP BY Q.query_name
+WHERE Q.query_name IS NOT NULL
