@@ -5,3 +5,11 @@
 -- Esta plantilla NO representa un ejercicio resuelto.
 
 -- TODO: write your own SQL query here.
+
+SELECT C.customer_id
+FROM Customer as C, Product as P
+GROUP BY C.customer_id
+HAVING COUNT(DISTINCT C.product_key) = (
+    SELECT COUNT(*)
+    FROM Product
+)
